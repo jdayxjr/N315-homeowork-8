@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Feedback</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">home</a>
+        <a href="about.html">about</a>
+        <!-- <a href="#" id="contact">contact</a> -->
+        <a href="#" id="open">Login</a>
+    </nav>
+    <!-- <div id="app"></div> -->
+    <div class="container">
+        <!-- About Us Section -->
+        <div class="about">
+            <h1>About Pizza Mania</h1>
+            <img src="images/chefs.jpg" alt="About Pizza Mania">
+            <p>
+                Pizza Mania was founded with one goal in mind – to deliver delicious, fresh, and mouthwatering pizzas
+                made from the highest quality ingredients. We are committed to offering a wide range of options that
+                cater to every taste. Whether you're a fan of classic flavors or looking to try something new, we have
+                something to satisfy your pizza cravings.
+            </p>
+            <p>
+                Our story began with a passion for pizza, and we continue that tradition every day by crafting
+                pizzas that bring people together. At Pizza Mania, we believe that pizza isn't just food, it's an
+                experience meant to be shared with family and friends.
+            </p>
+        </div>
+    </div>
+    <div class="modal">
+        <div class="modal-background close-modal"></div>
+        <div class="alert">
+            <div class="close-btn close-modal">X</div>
+            <div class="feedback"></div>
+            <div class="buttons">
+                <div class="save">Login</div>
+                <div class="close close-modal"> Close</div>
+            </div>
+        </div>
+        <!-- <div class="loader">Loading...</div>-->
+    </div>
+    <script type="module" src="lib/jquery-3.7.1.min.js">
+    </script>
+    <script type="module" src="app/app.js"></script>
+</body>
+
+</html>
